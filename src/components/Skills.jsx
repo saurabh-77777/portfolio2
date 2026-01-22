@@ -1,5 +1,5 @@
 export default function Skills() {
-  const skills = ["HTML","CSS","JAVAScript","React", "Node", "MongoDB", "Express", "Tailwind","Bootstrap","GSAP"];
+  const skills = ["HTML","CSS","JAVAScript","React", "Node", "MongoDB", "Express", "Tailwind","Bootstrap","GSAP","JWT","APIs","Cookies"];
 
   return (
     <section className="py-20 bg-gray-100 text-center">
