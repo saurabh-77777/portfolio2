@@ -1,4 +1,5 @@
 import { CgProfile } from "react-icons/cg";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="fixed w-full bg-gray-200 dark:bg-black shadow z-50">
@@ -8,7 +9,7 @@ export default function Navbar() {
           <a href="#" className="hover:text-indigo-600">Home</a>
           <a href="#projects" className="hover:text-indigo-600">Projects</a>
           <a href="#contact" className="hover:text-indigo-600">Contact</a>
-          <CgProfile className="text-xl hover:text-indigo-600"/>
+          <Link to="/login"><CgProfile className="text-xl hover:text-indigo-600"/></Link>
         </div>
       </div>
     </nav>
